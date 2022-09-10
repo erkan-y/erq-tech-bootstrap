@@ -1,0 +1,20 @@
+.banner {
+  background: url("./img/banner.jpeg") no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 56px);
+  color: purple;
+  font-weight: 500;
+}
+.card {
+  transition: 0.5s;
+  margin: 0.5rem;
+  border: 1px solid rgb(248, 249, 250);
+  padding: 0.5rem;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.contact {
+  background: url("./img/map.jpeg") no-repeat center center;
+  background-size: cover;
+}
